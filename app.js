@@ -49,6 +49,7 @@ function newElement() {
   for (i = 0; i < close.length; i++) {
     close[i].onclick = function() {
       var div = this.parentElement;
+      console.log("done");
       div.style.display = "none";
     }
   }
